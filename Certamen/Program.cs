@@ -122,7 +122,7 @@ namespace Certamen
                     n3 = int.Parse(Console.ReadLine());
                     // SALE DEL CICLO
                     flag2 = false;
-
+                    //MEJORAR CODIGO
 
                 }
                 catch (Exception ex)
