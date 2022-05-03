@@ -11,15 +11,19 @@ namespace Certamen
 
         static void Main(string[] args)
         {
+
+            Console.ForegroundColor = ConsoleColor.White;
+
             //VARIABLES
             int n1 = 0;
             int n2 = 0;
             int n3 = 0;
 
+            Console.WriteLine("--------------------------------------------------------------");
             Console.WriteLine("N1 = {0} | N2 = {1} | N3 = {2}", n1, n2, n3);
             Console.WriteLine("--------------------------------------------------------------");
 
-            //CARGAR VARIABLE A
+            //CARGAR VARIABLE N1
             bool flag = true;
 
 
@@ -44,16 +48,23 @@ namespace Certamen
                 {
                       flag = true;
                     Console.Clear();
+                    Console.WriteLine("--------------------------------------------------------------");
                     Console.WriteLine("N1 = {0} | N2 = {1} | N3 = {2}", n1, n2, n3);
+                    Console.WriteLine("--------------------------------------------------------------");
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Error: Ingrese sólo números.");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.WriteLine("--------------------------------------------------------------");
 
                 }
 
             }
 
+            Console.WriteLine("--------------------------------------------------------------");
             Console.WriteLine("N1 = {0} | N2 = {1} | N3 = {2}", n1, n2, n3);
+            Console.WriteLine("--------------------------------------------------------------");
 
-            //CARGAR VARIABLE B
+            //CARGAR VARIABLE N2
             bool flag1 = true;
 
 
@@ -78,16 +89,22 @@ namespace Certamen
                 {
                      flag1 = true;
                     Console.Clear();
+                    Console.WriteLine("--------------------------------------------------------------");
                     Console.WriteLine("N1 = {0} | N2 = {1} | N3 = {2}", n1, n2, n3);
+                    Console.WriteLine("--------------------------------------------------------------");
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Error: Ingrese sólo números.");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.WriteLine("--------------------------------------------------------------");
 
                 }
 
             }
-
+            Console.WriteLine("--------------------------------------------------------------");
             Console.WriteLine("N1 = {0} | N2 = {1} | N3 = {2}", n1, n2, n3);
+            Console.WriteLine("--------------------------------------------------------------");
 
-            //CARGAR VARIABLE C
+            //CARGAR VARIABLE N3
             bool flag2 = true;
 
 
@@ -112,8 +129,13 @@ namespace Certamen
                 {
                      flag2 = true;
                     Console.Clear();
+                    Console.WriteLine("--------------------------------------------------------------");
                     Console.WriteLine("N1 = {0} | N2 = {1} | N3 = {2}", n1, n2, n3);
+                    Console.WriteLine("--------------------------------------------------------------");
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Error: Ingrese sólo números.");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.WriteLine("--------------------------------------------------------------");
 
                 }
 
