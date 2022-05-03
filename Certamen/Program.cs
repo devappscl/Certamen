@@ -150,7 +150,7 @@ namespace Certamen
 
             Console.WriteLine("MOSTRAR NUMEROS PARES DEL A AL C");
 
-            for (int i = a; i <= c; i ++)
+            for (int i = a; i <= c; i++)
             {
                 if(i % 2 == 0)
                 {
@@ -164,7 +164,7 @@ namespace Certamen
 
             Console.WriteLine("MOSTRAR NUMEROS IMPARES DEL C AL A");
 
-            for (int i = a; i <= c; i += 2)
+            for (int i = c; i >= a; i--)
             {
                 if (i % 2 != 0)
                 {
