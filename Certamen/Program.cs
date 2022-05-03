@@ -123,7 +123,7 @@ namespace Certamen
 
 
             //ORDENAR DE MAYOR A MENOR
-            Console.WriteLine("ORDENAR DE MAYOR A MENOR: ");
+            Console.WriteLine("ORDENAR DE MENOR A MAYOR: ");
 
             int[] arr = new int[] { n1, n2, n3};
 
