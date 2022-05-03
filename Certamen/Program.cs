@@ -123,7 +123,9 @@ namespace Certamen
 
 
             //ORDENAR DE MAYOR A MENOR
+            Console.WriteLine("--------------------------------------");
             Console.WriteLine("ORDENAR DE MENOR A MAYOR: ");
+            Console.WriteLine("--------------------------------------");
 
             int[] arr = new int[] { n1, n2, n3};
 
@@ -140,7 +142,9 @@ namespace Certamen
 
 
             //OPERACIONES
-            Console.WriteLine("OPERACIONES");
+            Console.WriteLine("--------------------------------------");
+            Console.WriteLine("OPERACIONES - DIFERENCIA");
+            Console.WriteLine("--------------------------------------");
             Console.WriteLine("DIFERENCIA ENTRE C y A = {0}", c - a);
             Console.WriteLine("DIFERENCIA ENTRE B y A = {0}", b - a);
             Console.WriteLine("DIFERENCIA ENTRE B y C = {0}", b - c);
@@ -148,7 +152,9 @@ namespace Certamen
 
             //MOSTRAR PARES DEL A AL C
 
-            Console.WriteLine("MOSTRAR NUMEROS PARES DEL A AL C");
+            Console.WriteLine("--------------------------------------");
+            Console.WriteLine("MOSTRAR PARES DEL A AL C");
+            Console.WriteLine("--------------------------------------");
 
             for (int i = a; i <= c; i++)
             {
@@ -162,7 +168,9 @@ namespace Certamen
 
             //MOSTRAR IMPARES DEL C AL A
 
-            Console.WriteLine("MOSTRAR NUMEROS IMPARES DEL C AL A");
+            Console.WriteLine("--------------------------------------");
+            Console.WriteLine("MOSTRAR IMPARES DEL C AL A");
+            Console.WriteLine("--------------------------------------");
 
             for (int i = c; i >= a; i--)
             {
@@ -176,8 +184,10 @@ namespace Certamen
             //MOSTRAR MES SI LA DIFERENCUA DEL C AL A ES MENOR A 12
 
             int mes = c - a;
+            Console.WriteLine("--------------------------------------");
             Console.WriteLine("LA DIFERENCIA ES " + mes);
             Console.WriteLine("MOSTRAR MES DEL AÑO SI LA DIFERENCIA ENTRE C Y A ES MENOR O IGUAL A 12");
+            Console.WriteLine("--------------------------------------");
             switch (mes)
             {
                 case 1: Console.WriteLine("ENERO");break;
@@ -192,13 +202,17 @@ namespace Certamen
                 case 10: Console.WriteLine("OCTUBRE"); break;
                 case 11: Console.WriteLine("NOVIEMBRE"); break;
                 case 12: Console.WriteLine("DICIEMBRE"); break;
+                default: Console.WriteLine("NO CUMPLE CONDICIÓN"); break;
             }
+            
 
             //MOSTRAR MES SI LA DIFERENCUA DEL B AL A ES MENOR A 7
 
             int dia = b - a;
+            Console.WriteLine("--------------------------------------");
             Console.WriteLine("LA DIFERENCIA ES " + dia);
             Console.WriteLine("MOSTRAR DIA DE LA SEMANA SI LA DIFERENCIA ENTRE B Y A ES MENOR O IGUAL A 7");
+            Console.WriteLine("--------------------------------------");
             switch (dia)
             {
                 case 1: Console.WriteLine("LUNES"); break;
@@ -208,6 +222,7 @@ namespace Certamen
                 case 5: Console.WriteLine("VIERNES"); break;
                 case 6: Console.WriteLine("SABADO"); break;
                 case 7: Console.WriteLine("DOMINGO"); break;
+                default: Console.WriteLine("NO CUMPLE CONDICIÓN"); break;
             }
 
 
