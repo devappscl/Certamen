@@ -32,7 +32,7 @@ namespace Certamen
                 {
 
                     //PREGUNTA NUMERO CONSOLA
-                    Console.WriteLine("INGRESE NUMERO  a: ");
+                    Console.WriteLine("INGRESE NUMERO  N1: ");
                     //PARSEA LA VARIABLE NUMERO EN ENTERO, EN CASO DE QUE SEA STRING SE GENERA LA EXCEPCIÓN
                     n1 = int.Parse(Console.ReadLine());
                     // SALE DEL CICLO
@@ -66,7 +66,7 @@ namespace Certamen
                 {
 
                     //PREGUNTA NUMERO CONSOLA
-                    Console.WriteLine("INGRESE NUMERO  b: ");
+                    Console.WriteLine("INGRESE NUMERO  N2: ");
                     //PARSEA LA VARIABLE NUMERO EN ENTERO, EN CASO DE QUE SEA STRING SE GENERA LA EXCEPCIÓN
                     n2 = int.Parse(Console.ReadLine());
                     // SALE DEL CICLO
@@ -100,7 +100,7 @@ namespace Certamen
                 {
 
                     //PREGUNTA NUMERO CONSOLA
-                    Console.WriteLine("INGRESE NUMERO  c: ");
+                    Console.WriteLine("INGRESE NUMERO  N3: ");
                     //PARSEA LA VARIABLE NUMERO EN ENTERO, EN CASO DE QUE SEA STRING SE GENERA LA EXCEPCIÓN
                     n3 = int.Parse(Console.ReadLine());
                     // SALE DEL CICLO
