@@ -207,8 +207,9 @@ namespace Certamen
 
             int mes = c - a;
             Console.WriteLine("--------------------------------------");
-            Console.WriteLine("LA DIFERENCIA ES " + mes);
+           
             Console.WriteLine("MOSTRAR MES DEL AÑO SI LA DIFERENCIA ENTRE C Y A ES MENOR O IGUAL A 12");
+            Console.WriteLine("LA DIFERENCIA ES " + mes);
             Console.WriteLine("--------------------------------------");
             switch (mes)
             {
@@ -232,8 +233,9 @@ namespace Certamen
 
             int dia = b - a;
             Console.WriteLine("--------------------------------------");
-            Console.WriteLine("LA DIFERENCIA ES " + dia);
+           
             Console.WriteLine("MOSTRAR DIA DE LA SEMANA SI LA DIFERENCIA ENTRE B Y A ES MENOR O IGUAL A 7");
+            Console.WriteLine("LA DIFERENCIA ES " + dia);
             Console.WriteLine("--------------------------------------");
             switch (dia)
             {
@@ -255,4 +257,5 @@ namespace Certamen
 
 
     }
+     
 }
